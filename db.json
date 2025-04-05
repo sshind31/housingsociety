@@ -1,0 +1,14 @@
+{
+    "User": [
+        { "id":"1", "HousingSocietyCode": "1", "Name": "Society1User","MemberCode":"M1", "PhoneNumber": "100", "IsSuperUser":true, "Active":true }
+    ],
+    "HousingSocieties": [
+        {"id":"1", "HousingSocietyCode":"1", "HousingSocietyName":"HS1"}
+    ],
+    "Charges": [
+        {"id":"1", "Description":"Maintainance", "Amount":300, "Type":"Per Month", "HousingSocietyCode":"1", "Active":true}
+    ],
+    "Payment": [
+        {"id":"1", "ChargesID":"1", "UserID":1, "PaidAmount":100, "TransactinDate":"", "TransactinDetails":"", "TransactionType":"Cash", "Month":1, "Year":2025 }
+    ]
+}
